@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #373b69 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #373b69;
+  border-radius: 15px;
+  border: 0px none #ffffff;
+}
+body {
+  background-color: #ee9617;
+  background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  right: 1rem;
+  top: 1rem;
+}
+.logo {
+  position: absolute;
+  margin: 1rem;
+  left: 1rem;
+  top: -1rem;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.search1 {
+  background-color: rgba(134, 134, 139, 0.5);
+  border: 2px solid var(--primary-color);
+  padding: 0.5rem 3rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  font-size: 1rem;
+  color: white;
+  font-family: inherit;
+  text-transform: capitalize;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+  direction: ltr;
+}
+.search1:focus {
+  outline: none;
+  width: 450px;
+  background-color: var(--secondary-color);
+}
+
+.search1::placeholder {
+  color: whitesmoke;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.733);
+  justify-content: space-evenly;
+}
+
+.movie {
+  width: 360px;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0.5px 4px 5px rgba(0, 0, 0, 0.7);
+  background-color: var(--secondary-color);
+  position: relative;
+  overflow: hidden;
+}
+.resultsList {
+  width: 450px;
+  top: 3rem;
+  position: absolute;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 9;
+  background: darkslateblue;
+  border-radius: 8px;
+  box-shadow: 1.3px 1.3px 3px 0px rgba(211, 209, 209, 0.91);
+}
+
+.resultsList_items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  font-family: inherit;
+  margin-right: 0.5rem;
+  padding: 0.7rem;
+  background-color: var(--primary-color);
+  box-shadow: -2px 2px 4px 0px rgba(0, 0, 0, 0.7);
+}
+.resultsList_items img {
+  width: 130px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 1.5rem;
+}
+
+.Searchinfo h3 {
+  font-weight: 200;
+  color: #eee;
+  font-size: 1rem;
+  text-align: right;
+  width: 200px;
+}
+.movie img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.movieinfo {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+.movieinfo h3 {
+  margin-top: 0;
+}
+
+.movieinfo span {
+  background-color: var(--primary-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.movieinfo span.green {
+  color: lightgreen;
+}
+
+.movieinfo span.orange {
+  color: orange;
+}
+.movieinfo span.red {
+  color: red;
+}
+
+.overview {
+  position: absolute;
+  left: 0;
+  right: 0;
+  overflow: scroll;
+  top: 0;
+  background-color: lightcyan;
+  opacity: 0.9;
+  padding: 1rem;
+  max-height: 100%;
+  transform: translateX(-101%);
+  transition: transform 1s ease-in;
+}
+.movie:hover .overview {
+  transform: translateX(0%);
+}
+@media (max-width: 900px) {
+  .logo {
+    display: none;
+  }
+  header {
+    align-items: center;
+    justify-content: center;
+    top: 1rem;
+    left: 0.1rem;
+  }
+  .search1 {
+    transition: none;
+  }
+  .search1:focus {
+    width: 100vw;
+  }
+  .resultsList {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
