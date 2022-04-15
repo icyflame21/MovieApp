@@ -61,7 +61,7 @@ Error Page
 ![Logo](https://images2.imgbox.com/00/fa/i5SbrS59_o.jpg)
 
 
-## Authors  😇
+## Author 😇
 
 
 - 👤 [Biswaranjan](https://www.github.com/icyflame21)
