@@ -45,19 +45,19 @@ No External Libraries has been used.
 
 ## Snap Shots 📷
 
-UI on Loading
+**UI on Loading**
 
 ![Logo](https://images2.imgbox.com/85/0d/VJabqDdG_o.jpg)
 
-Debouncing
+**Debouncing**
 
 ![Logo](https://images2.imgbox.com/b4/fc/hmio7Jom_o.jpg)
 
-Searched Results UI
+**Searched Results UI**
 
 ![Logo](https://images2.imgbox.com/a8/90/mZLERIO9_o.jpg)
 
-Error Page
+**Error Page**
 
 ![Logo](https://images2.imgbox.com/00/fa/i5SbrS59_o.jpg)
 
