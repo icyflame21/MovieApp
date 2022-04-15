@@ -8,7 +8,7 @@ A solo project executed in 1 day.
 
 ## Demo  🎥
 
-- Deployed Link:- [Enjoy the Experience](https://uniquemoviesearch.netlify.app/)
+- Deployed Link:- [Enjoy the App](https://uniquemoviesearch.netlify.app/)
 
 
 ## Tech Stack 💻
