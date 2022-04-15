@@ -191,24 +191,3 @@ main {
 .movie:hover .overview {
   transform: translateX(0%);
 }
-@media (max-width: 900px) {
-  .logo {
-    display: none;
-  }
-  header {
-    align-items: center;
-    justify-content: center;
-    top: 1rem;
-    left: 0.1rem;
-  }
-  .search1 {
-    transition: none;
-  }
-  .search1:focus {
-    width: 100vw;
-  }
-  .resultsList {
-    width: 100%;
-    overflow-x: hidden;
-  }
-}
