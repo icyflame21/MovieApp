@@ -53,7 +53,7 @@ Debouncing
 
 ![Logo](https://images2.imgbox.com/b4/fc/hmio7Jom_o.jpg)
 
-Searched Result UI
+Searched Results UI
 
 ![Logo](https://images2.imgbox.com/a8/90/mZLERIO9_o.jpg)
 
