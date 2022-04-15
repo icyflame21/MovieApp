@@ -1,5 +1,5 @@
 
-# Movies App
+# Movie App
 
 This movie app provides movies/ TV shows data for any searched movie/ TV shows.
 
