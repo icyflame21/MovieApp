@@ -5,6 +5,7 @@ This movie app provides movies/ TV shows data for any searched movie/ TV shows.
 
 A solo project executed in 1 day.
 
+![Logo](https://moviehdapkdownload.com/wp-content/uploads/2017/04/MovieHD-Apk-Dowanload.jpg.webp)
 
 ## Demo  🎥
 
