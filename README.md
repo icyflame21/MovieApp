@@ -17,7 +17,6 @@ A solo project executed in 1 day.
 - HTML5
 - CSS3
 - JAVASCRIPT
-![Logo](https://user-images.githubusercontent.com/30186107/29488525-f55a69d0-84da-11e7-8a39-5476f663b5eb.png)
 No External Libraries has been used.
 
 ## API Used ✅
