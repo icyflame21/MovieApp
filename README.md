@@ -3,7 +3,7 @@
 
 This movie app provides movies/ TV shows data for any searched movie/ TV shows.
 
-A solo project executed in 1 day.
+A solo project executed in 1 day.No External Libraries has been used.
 
 ![Logo](https://moviehdapkdownload.com/wp-content/uploads/2017/04/MovieHD-Apk-Dowanload.jpg.webp)
 
@@ -17,7 +17,7 @@ A solo project executed in 1 day.
 - HTML5
 - CSS3
 - JAVASCRIPT
-No External Libraries has been used.
+
 
 ## API Used ✅
 
